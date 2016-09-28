@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dish_detail_name"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/green"
+        android:text="@string/test"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dish_detail_author"
+        android:textSize="10dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/test"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/dish_detail_picture"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:isIndicator="true"
+        android:id="@+id/dish_detail_ratingbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dish_detail_vegan_info"
+        android:text="Vegan:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dish_detail_glutenfree_info"
+        android:text="Glutenfrei:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dish_detail_comment"
+        android:text="@string/test"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+</LinearLayout>
