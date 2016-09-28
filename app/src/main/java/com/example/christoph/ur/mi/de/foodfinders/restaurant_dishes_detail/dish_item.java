@@ -10,6 +10,9 @@ public class dish_item {
 
     private String nameDish;
     private String place_id;
+
+
+
     private String dishId;
     private String gluten;
     private String vegan;
@@ -83,6 +86,10 @@ public class dish_item {
 
     public String getAuthorID() {
         return authorID;
+    }
+
+    public String getPlace_id() {
+        return place_id;
     }
 
 }
